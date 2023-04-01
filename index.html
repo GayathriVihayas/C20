@@ -47,58 +47,44 @@
         <!--================Header Area =================-->
         <header class="header_area home_page">
           <div class="home_logo">
-            <img
-              src="assets/images/logo.png"
-              style="width: 200px; height: 63"
-              alt="noting"
-            />
-            <!-- <div class="slide-number">
-            <span class="current-number text-primary">0<span class="count"></span></span>
-            <sup><span class="delimiter">/</span> 0<span class="total-count">0</span></sup>
-          </div> -->
-            <!-- <ul class="nav">
-            <li class="active"><a href="#">ENG</a></li>
-            <li><a href="#">FRA.</a></li>
-            <li><a href="#">GER.</a></li>
-          </ul> -->
+            <img src="assets/images/logo.png" alt="">
+            <div class="slide-number">
+              <span class="current-number text-primary">0<span class="count"></span></span>
+              <sup><span class="delimiter">/</span> 0<span class="total-count">0</span></sup>
+            </div>
+            <ul class="nav">
+              <li class="active"><a href="#">ENG</a></li>
+              <li><a href="#">FRA.</a></li>
+              <li><a href="#">GER.</a></li>
+            </ul>
           </div>
           <div class="main_menu">
             <div class="container">
-              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="index.html">
-                  <img
-                    src="assets/images/logo.png"
-                    style="width: 200px; height: 63"
-                    alt=""
-                  />
-                  <img
-                    src="assets/images/logo.png"
-                    style="width: 200px; height: 63"
-                    alt=""
-                  />
+                  <img src="assets/images/logo.png" alt=""  style="width:40%"/>
+                  <img src="assets/images/logo.png" alt="" style="width:40%"/>
                 </a>
-
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
+               
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span></span>
                 </button>
-                <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="nav navbar-nav ml-auto">
                     <li class="dropdown submenu active">
                       <a href="index.html">Home</a>
+                      <i class="fa fa-angle-down mobile_dropdown" aria-hidden="true" data-toggle="dropdown"></i>
+                      <ul class="dropdown-menu">
+                        <li><a href="index.html">Home - Light</a></li>
+                        <li><a href="../sparch-dark/index.html">Home - Dark</a></li>
+                      </ul>
+                    </li>
                     <li><a href="portfolio.html">Speaker</a></li>
-                    <li><a href="about.html">Events</a></li>
-                    
+                    <li >
+                      <a href="about.html">Events</a>
+                      
+                    </li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
                 </div>
@@ -126,7 +112,7 @@
                   data-bgposition="center center"
                   data-bgfit="cover"
                   data-bgrepeat="no-repeat"
-                  class="rev-slidebg"
+                  class="rev-slidebg slider1-img-class"
                   data-bgparallax="10"
                   data-no-retina
                 />

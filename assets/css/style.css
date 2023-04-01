@@ -3184,3 +3184,8 @@ font-size: 40px !important;
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*# sourceMappingURL=style.css.map */
+@media screen and (min-width: 600px) {
+  .slider1-img-class{
+    width: 50% !important;
+  }
+}
