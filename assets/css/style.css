@@ -807,14 +807,14 @@ font-size: 40px !important;
 
 .main_slider_area ul li .slider_text_box .slider_button .arrow_btn {
   color: #414385;
-  font: 20px "swanseb";
+  font: 24px "swanseb" !important;
   -webkit-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
   margin-top: 4rem !important;
 }
 
 .main_slider_area ul li .slider_text_box .slider_button .arrow_btn i {
-  font-size: 18px;
+  font-size: 22px !important;
   margin-left: 6px;
 }
 
@@ -871,7 +871,7 @@ font-size: 40px !important;
 }
 
 .who_we_text p {
-  max-width: 492px;
+ width: 100%;
   margin-bottom: 20px;
 }
 
@@ -2203,8 +2203,9 @@ font-size: 40px !important;
 
 .portfolio_grid_item {
   overflow: hidden;
-  margin-bottom: 65px;
+  /* margin-bottom: 65px; */
   cursor: pointer;
+  height: 100%;
 }
 
 .portfolio_grid_item .portfolio_img {
