@@ -807,7 +807,7 @@ font-size: 40px !important;
   @media only screen and (min-width: 1024px) and (max-width: 2000px) { 
     .main_slider_area ul li .slider_text_box .first_text span {
       color: #3456ed;
-      line-height: 4em;
+      /* line-height: 4em; */
      
     }
     #div-text-slide1{
