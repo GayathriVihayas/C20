@@ -3249,7 +3249,18 @@ font-size: 40px !important;
     margin-left: 6px;
   }
 }
-.container-schedule{
-  background-color: #767676;
+.container-schedule-fluid{
+ background-image: url('/assets/images/home-slider/CALNDR.png');
+ background-position: center; /* Center alignment of the background image */
+  background-repeat: no-repeat; /* No repeat of the background image */
   margin-top: 20px;
+}
+.schedule-rows{
+  background: #F4F4F4;
+box-shadow: -3px 5px 33px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+.col-2{
+  color: #5153A4;
 }
