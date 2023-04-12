@@ -442,7 +442,7 @@ font-size: 40px !important;
 
 .home_logo {
   position: absolute;
-  left: 0px;
+  left: 100px;
   top: 0px;
   height: 56.5vmin;
   z-index: 40;
