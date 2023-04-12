@@ -3249,4 +3249,7 @@ font-size: 40px !important;
     margin-left: 6px;
   }
 }
-
+.container-schedule{
+  background-color: #767676;
+  margin-top: 20px;
+}
